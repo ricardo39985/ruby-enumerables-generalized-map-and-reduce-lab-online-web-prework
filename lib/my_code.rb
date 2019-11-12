@@ -9,7 +9,7 @@ end
 
 def reduce(source)
   result = 0
-  for i in source
+  for i in source do
     result += yield i
   end
   result

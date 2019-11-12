@@ -1,5 +1,16 @@
 # Your Code Here
 def map(source)
-  yield source
+  negative_array = []
+  for i in source do
+    negative_array.push(yield i)
+  end
+  negative_array
 end
-map(source)map { |e| e*-1 }
+
+def reduce(source)
+  result = 0
+  for i in source
+    result += yield i
+  end
+  result
+end

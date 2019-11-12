@@ -11,6 +11,7 @@ def reduce(source)
   sum = 0
   if source.include? true do
     return true
-
+  else
+    return false
   end
 end

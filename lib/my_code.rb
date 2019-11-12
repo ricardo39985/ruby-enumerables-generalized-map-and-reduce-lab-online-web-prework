@@ -17,6 +17,6 @@ def reduce(source)
     for i in source do
       sum += yield i
     end
-    sum
+  sum
   end
 end

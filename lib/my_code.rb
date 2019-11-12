@@ -19,6 +19,7 @@ def reduce(source)
     end
     sum
   end
+  end
 
   end
 end

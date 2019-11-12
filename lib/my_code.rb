@@ -8,11 +8,5 @@ def map(source)
 end
 
 def reduce(source)
-  result = 0
-  i = 0
-  while i < source.length do
-    result += yield source[i]
-    i+=1
-  end
-  result
+  pp source
 end

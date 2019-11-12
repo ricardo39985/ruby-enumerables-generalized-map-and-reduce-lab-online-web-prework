@@ -9,9 +9,12 @@ end
 
 def reduce(source)
   result = 0
-  for i in source do
-    pp i
-    result =result + yield i
+  i = 0
+  while i < source.length do
+    result += yield source[i]
+    i+=1
+  end
+    
   end
   result
 end

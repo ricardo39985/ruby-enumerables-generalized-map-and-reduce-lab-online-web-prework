@@ -9,14 +9,8 @@ end
 
 def reduce(source)
   sum = 0
-  if source.include? true do
-    return true
-  elsif source.include? false do
-    return false
-  else
-    for i in source do
-      sum += yield i
-    end
-  sum
-  end
+if source.include? true do
+  return true
+  
+end
 end

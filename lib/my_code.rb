@@ -14,7 +14,5 @@ def reduce(source)
     result += yield source[i]
     i+=1
   end
-
-  end
   result
 end

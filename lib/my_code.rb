@@ -9,8 +9,8 @@ end
 
 def reduce(source)
   sum = 0
-if source.include? true do
-  return true
+  if source.include? true do
+    return true
 
-end
+  end
 end
